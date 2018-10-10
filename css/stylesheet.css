@@ -1,0 +1,113 @@
+a, a:hover, a:focus {
+  color: inherit;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 9px;
+    padding-left: 9px;
+  }
+}
+body {
+  background-color: #182330;
+  font-size: 13px;
+  color: #E0E3EA;
+}
+
+header .navbar {
+  color: #7E8EAB;
+  background-color: #242D3D;
+  padding: 0;
+}
+header .navbar .navbar-brand {
+  font-size: 18px;
+  padding: 14px 25px;
+}
+header .navbar .pages-nav.active > .nav-link {
+  border-bottom: 2px solid #E0E3EA;
+}
+header .navbar .navbar-nav .nav-link {
+  margin-left: 9px;
+  margin-right: 9px;
+  padding: 17px 9px;
+}
+
+.tab-title .title {
+  color: #C1C9D9;
+  font-size: 20px;
+}
+.tab-title .name {
+  color: #7E8EAB;
+}
+
+.tab-section {
+  margin-bottom: 144px;
+}
+.tab-section .tab-heading {
+  background-color: #242D3D;
+  padding: 0 25px;
+}
+.tab-section .tab-heading li {
+  color: #7E8EAB;
+  margin-left: 9px;
+  margin-right: 9px;
+  padding: 17px 9px;
+}
+.tab-section .tab-heading .active {
+  color: #E0E3EA;
+  border-bottom: 2px solid #E0E3EA;
+}
+.tab-section .tab-content {
+  background-color: #242D3D;
+  padding: 15px 34px;
+}
+.tab-section .tab-content .content-heading {
+  padding: 0 25px 25px;
+}
+.tab-section .tab-content .content-heading li {
+  color: #7E8EAB;
+  width: 20%;
+  margin: 16px 0;
+}
+.tab-section .tab-content .content-data li {
+  margin: 16px 0;
+  width: 20%;
+}
+.tab-section .tab-content .content-data li:last-of-type {
+  color: #7E8EAB;
+  padding-right: 28px;
+}
+.tab-section .tab-content .info p, .tab-section .tab-content .info input, .tab-section .tab-content .info .name {
+  color: #7E8EAB;
+}
+.tab-section .tab-content .info input {
+  background: #161F2B;
+  padding: 12px 14px 14px;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+.tab-section .tab-content .info p {
+  padding-right: 28px;
+}
+.tab-section .tab-content .info p:first-of-type {
+  margin-bottom: 25px;
+}
+.tab-section .tab-content .info .withdraw {
+  margin: 32px 0 32px;
+  padding: 12px 45px 14px;
+  background: #2D70C5;
+}
+.tab-section .tab-content .info .history-data li {
+  border-top: 1px solid #334056;
+  padding: 12.5px 0;
+  width: 20%;
+}
+.tab-section .tab-content .info .history-data li:last-of-type {
+  padding-right: 28px;
+}
+.tab-section .tab-content .info .history-data li:last-of-type span {
+  padding: 5px 14px 6px;
+  background: #161F2B;
+}
+
+/*# sourceMappingURL=stylesheet.css.map */

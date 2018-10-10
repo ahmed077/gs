@@ -1,0 +1,137 @@
+$dark:#151D28;
+$lessdarker:#202338;
+//not used
+$background:#182330;
+$buttons_fields:#161F2B;
+$hr:#334056;
+$withdraw:#2D70C5;
+$lightbg:#242D3D;
+$datafont:#E0E3EA;
+$titlesfont:#7E8EAB;
+$headline:#C1C9D9;
+//Color Variables End
+//Main Styles
+a, a:hover, a:focus{
+  color:inherit
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 9px;
+    padding-left: 9px;
+  }
+}
+body{
+  background-color: $background;
+  font-size:13px;
+  color:$datafont;
+}
+//Header Start
+header .navbar {
+  color:$titlesfont;
+  background-color:$lightbg;
+  padding:0;
+  .navbar-brand {
+    font-size:18px;
+    padding:14px 25px;
+  }
+  .pages-nav {
+    &.active > .nav-link {
+      border-bottom: 2px solid $datafont;
+    }
+  }
+
+  .navbar-nav .nav-link {
+    margin-left: 9px;
+    margin-right: 9px;
+    padding:17px 9px;
+  }
+}
+//Header End
+//Tab Section
+//Title Bar
+.tab-title {
+  .title {
+    color:$headline;
+    font-size:20px;
+  }
+  .name {
+    color:$titlesfont;
+  }
+}
+//Data Section
+.tab-section {
+  margin-bottom:144px;
+  .tab-heading {
+    background-color:$lightbg;
+    padding:0 25px;
+    li{
+      color:$titlesfont;
+      margin-left: 9px;
+      margin-right: 9px;
+      padding:17px 9px;
+    }
+    .active {
+      color: $datafont;
+      border-bottom: 2px solid $datafont;
+    }
+  }
+  //Tab Content
+  .tab-content {
+    background-color: $lightbg;
+    padding:15px 34px;
+    .content-heading {
+      padding:0 25px 25px;
+      li {
+        color:$titlesfont;
+        width:20%;
+        margin:16px 0;
+      }
+    }
+    .content-data {
+      li {
+        margin:16px 0;
+        width:20%;
+        &:last-of-type {
+          color:$titlesfont;
+          padding-right:28px;
+        }
+      }
+    }
+    .info{
+      p, input, .name{
+        color:$titlesfont;
+      }
+      input{
+        background:$buttons_fields;
+        padding:12px 14px 14px;
+        margin-bottom:20px;
+        font-size:13px;
+      }
+      p{
+        padding-right:28px;
+        &:first-of-type{
+          margin-bottom:25px;
+        }
+      }
+      .withdraw {
+        margin:32px 0 32px;
+        padding:12px 45px 14px;
+        background:$withdraw;
+      }
+      .history-data {
+        li {
+          border-top:1px solid $hr;
+          padding:12.5px 0;
+          width: 20%;
+          &:last-of-type{
+            padding-right:28px;
+            span{
+              padding:5px 14px 6px;
+              background:$buttons_fields;
+            }
+          }
+        }
+      }
+    }
+  }
+}
